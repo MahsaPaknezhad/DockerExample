@@ -1,0 +1,5 @@
+pillow==10.2.0
+torch==2.2.1
+torchaudio==2.2.1
+torchvision==0.17.1
+typing_extensions==4.10.0

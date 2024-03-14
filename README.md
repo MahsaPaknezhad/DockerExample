@@ -6,30 +6,30 @@
 sudo apt install -y docker.io docker-compose python3-pip
 ```
 
-Start Docker Deamon:
+## Start Docker Deamon:
 
 ```
 sudo systemctl start docker
 ```
 
-Build Docker Image:
+## Build Docker Image:
 
 ```
 docker build -t python_modeltrainer .
 ```
 
-Run the Image:
+## Run the Image:
 
 ```
 docker run python_modeltrainer
 ```
 
-Run in an interactive way to see outputs of code:
+## Run in an interactive way to see outputs of code:
 ```
 docker run -t -i python_modeltrainer
 ```
 
-Other useful commands:
+## Other useful commands:
 
 ```
 docker ps # to see running docker images
